@@ -50,3 +50,35 @@ This project demonstrates how machine learning can assist in medical decision su
 
 ## 🎓 Academic Relevance
 This project reflects my interest in combining **machine learning and biomedical data analysis**, and serves as an introductory study for graduate-level research in biomedical engineering and health informatics.
+
+## Model Comparison
+
+In this project, multiple machine learning models were trained and evaluated
+on the same heart disease dataset to compare their predictive performance.
+
+### Models Used
+- Logistic Regression (baseline model)
+- K-Nearest Neighbors (KNN)
+- Random Forest Classifier
+
+### Features
+The following clinical features were used:
+- Age
+- Resting blood pressure (trestbps)
+- Serum cholesterol (chol)
+- Maximum heart rate achieved (thalch)
+- ST depression (oldpeak)
+- Number of major vessels (ca)
+
+### Evaluation Metric
+- Accuracy on the test set (80/20 train-test split)
+
+### Results
+The results show that different models achieve different accuracy levels,
+highlighting the importance of model selection in medical prediction tasks.
+Ensemble-based models such as Random Forest generally outperform simpler
+baseline models.
+
+This comparative approach provides insight into the trade-offs between
+model complexity and predictive performance in biomedical applications.
+
