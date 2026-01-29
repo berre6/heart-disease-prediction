@@ -1,29 +1,22 @@
 # Heart Disease Prediction using Machine Learning
 
 ## 📌 Project Overview
-This project focuses on predicting the presence of heart disease using machine learning techniques.  
-It is designed as a **biomedical data science project**, combining healthcare data analysis with supervised learning.
+This project focuses on predicting the presence of heart disease using clinical patient data and machine learning techniques.  
+It was developed as part of my preparation for graduate studies in **Biomedical Engineering**, with an emphasis on applying data science to healthcare problems.
 
-The main goal is to demonstrate how machine learning can assist in **early detection of cardiovascular diseases**, which is a critical topic in biomedical engineering.
-
----
-
-## 🧠 Motivation
+## 🫀 Motivation
 Cardiovascular diseases are among the leading causes of death worldwide.  
-Early diagnosis can significantly improve treatment outcomes.
-
-This project was developed as a **portfolio and academic project** to support future studies in **Biomedical Engineering and Health Informatics**, particularly at the graduate (Master’s) level.
-
----
+Early detection using clinical indicators can significantly improve patient outcomes.  
+This project demonstrates how machine learning can assist in medical decision support systems.
 
 ## 📊 Dataset
-- Source: Heart Disease Dataset
-- Number of samples: ~900
+- Source: UCI Heart Disease Dataset (Cleveland)
+- Number of samples after cleaning: 299
 - Target variable:
-  - `has_disease = 1` → Patient has heart disease
-  - `has_disease = 0` → Patient does not have heart disease
+  - `has_disease = 1` → presence of heart disease  
+  - `has_disease = 0` → no heart disease
 
-### Selected Features:
+## 🧪 Features Used
 - Age
 - Resting blood pressure (`trestbps`)
 - Cholesterol level (`chol`)
@@ -31,42 +24,29 @@ This project was developed as a **portfolio and academic project** to support fu
 - ST depression (`oldpeak`)
 - Number of major vessels (`ca`)
 
----
-
-## ⚙️ Methods
+## ⚙️ Methodology
 - Data cleaning (handling missing values)
 - Feature selection
-- Train-test split
-- Logistic Regression model
-- Model evaluation using accuracy
-
----
+- Train-test split (80% train / 20% test)
+- Model: **Logistic Regression**
+- Evaluation metric: **Accuracy**
 
 ## 📈 Results
-- Model: Logistic Regression
-- Accuracy: **~78%**
+- Model Accuracy: **78.3%**
+- The model shows a reasonable performance for a baseline medical classification task.
 
-This result shows that even a simple linear model can capture meaningful patterns in medical data.
-
----
-
-## 🛠️ Technologies Used
+## 🧠 Technologies Used
 - Python
 - Pandas
-- Matplotlib
 - Scikit-learn
+- Matplotlib
 - Git & GitHub
 
----
-
 ## 🚀 Future Improvements
-- Try advanced models (Random Forest, SVM, XGBoost)
-- Feature scaling and normalization
-- ROC-AUC analysis
-- Cross-validation
-- Clinical interpretation of model coefficients
+- Add ROC curve and confusion matrix
+- Try advanced models (Random Forest, XGBoost)
+- Feature scaling and hyperparameter tuning
+- Clinical interpretation of feature importance
 
----
-
-## 👩‍⚕️ Author
-This project was developed by a student interested in **Biomedical Engineering, Machine Learning, and Healthcare Analytics**.
+## 🎓 Academic Relevance
+This project reflects my interest in combining **machine learning and biomedical data analysis**, and serves as an introductory study for graduate-level research in biomedical engineering and health informatics.
